@@ -3,6 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/T-Regx/T-Regx/actions/"><img src="https://github.com/T-Regx/T-Regx/workflows/build/badge.svg?branch=master" alt="Build status"/></a>
+    <a href="#about-coverage"><img src="https://img.shields.io/badge/coverage-100%25-green.svg" alt="Integration tests"/></a>    
     <a href="https://github.com/T-Regx/T-Regx/releases"><img src="https://img.shields.io/badge/Stable-v0.12.0-brightgreen.svg?style=popout"/></a>
     <a href="https://github.com/T-Regx/T-Regx"><img src="https://img.shields.io/badge/dependencies-0-brightgreen.svg"/></a>
 </p>
@@ -26,13 +27,6 @@ PHP regular expressions brought up to modern standards.
 [![PHP Version](https://img.shields.io/badge/PHP-7.4-blue.svg)](https://travis-ci.org/T-Regx/T-Regx)
 [![PHP Version](https://img.shields.io/badge/PHP-8.0-blue.svg)](https://travis-ci.org/T-Regx/T-Regx)
 
-- Integration tests:
-
-  <img src="https://img.shields.io/badge/coverage-100%25-green.svg" alt="Integration tests"/>
-
-- Unit tests:
-
-  <a href="https://coveralls.io/github/T-Regx/T-Regx?branch=develop"><img src="https://coveralls.io/repos/github/T-Regx/T-Regx/badge.svg?branch=master" alt="Unit tests"/></a>
 
 1. [Installation](#installation)
     * [Composer](#installation)
@@ -127,6 +121,12 @@ Open [T-Regx fiddle](https://repl.it/github/T-Regx/fiddle) and start playing aro
 * ### Protects your from fatal errors
   Certain arguments cause fatal errors with `preg_()` methods. T-Regx will throw a catchable exception, instead of a
   Fatal Error.
+
+## About coverage
+
+<img src="https://img.shields.io/badge/coverage-100%25-green.svg" alt="Integration tests"/> of integration tests
+
+<a href="https://coveralls.io/github/T-Regx/T-Regx?branch=develop"><img src="https://coveralls.io/repos/github/T-Regx/T-Regx/badge.svg?branch=master" alt="Unit tests"/></a> of unit tests
 
 # What's better
 
